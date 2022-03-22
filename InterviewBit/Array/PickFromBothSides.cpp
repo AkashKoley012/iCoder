@@ -17,3 +17,7 @@ int main(){
 	for(auto &i:A)cin>>i;
 	cout<<solve(A,B);
 }
+
+//1.calculate the prefix and suffix sum array
+//2.pick index i from prefix and B-i from suffix;
+// return max from 0 to B  
